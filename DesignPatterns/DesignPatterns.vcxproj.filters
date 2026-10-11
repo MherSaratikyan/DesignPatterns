@@ -36,6 +36,9 @@
     <ClCompile Include="WithPatterns\EmailService.cpp">
       <Filter>WithPatterns</Filter>
     </ClCompile>
+    <ClCompile Include="WithPatterns\PatternDemo.cpp">
+      <Filter>WithPatterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common\MailSubsystems.h">
@@ -48,6 +51,9 @@
       <Filter>WithPatterns</Filter>
     </ClInclude>
     <ClInclude Include="WithPatterns\EmailService.h">
+      <Filter>WithPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="WithPatterns\PatternDemo.h">
       <Filter>WithPatterns</Filter>
     </ClInclude>
   </ItemGroup>

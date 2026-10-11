@@ -144,12 +144,14 @@
     <ClCompile Include="WithPatterns\Email.cpp" />
     <ClCompile Include="WithPatterns\EmailBuilder.cpp" />
     <ClCompile Include="WithPatterns\EmailService.cpp" />
+    <ClCompile Include="WithPatterns\PatternDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common\MailSubsystems.h" />
     <ClInclude Include="WithPatterns\Email.h" />
     <ClInclude Include="WithPatterns\EmailBuilder.h" />
     <ClInclude Include="WithPatterns\EmailService.h" />
+    <ClInclude Include="WithPatterns\PatternDemo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
