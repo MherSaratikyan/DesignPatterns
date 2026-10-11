@@ -16,6 +16,9 @@
     <Filter Include="Common">
       <UniqueIdentifier>{1B2C3D4E-0001-4A00-9000-000000000001}</UniqueIdentifier>
     </Filter>
+    <Filter Include="WithPatterns">
+      <UniqueIdentifier>{1B2C3D4E-0001-4A00-9000-000000000002}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DesignPatterns.cpp">
@@ -24,10 +27,22 @@
     <ClCompile Include="Common\MailSubsystems.cpp">
       <Filter>Common</Filter>
     </ClCompile>
+    <ClCompile Include="WithPatterns\Email.cpp">
+      <Filter>WithPatterns</Filter>
+    </ClCompile>
+    <ClCompile Include="WithPatterns\EmailBuilder.cpp">
+      <Filter>WithPatterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common\MailSubsystems.h">
       <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WithPatterns\Email.h">
+      <Filter>WithPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="WithPatterns\EmailBuilder.h">
+      <Filter>WithPatterns</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

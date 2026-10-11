@@ -141,9 +141,13 @@
   <ItemGroup>
     <ClCompile Include="DesignPatterns.cpp" />
     <ClCompile Include="Common\MailSubsystems.cpp" />
+    <ClCompile Include="WithPatterns\Email.cpp" />
+    <ClCompile Include="WithPatterns\EmailBuilder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common\MailSubsystems.h" />
+    <ClInclude Include="WithPatterns\Email.h" />
+    <ClInclude Include="WithPatterns\EmailBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
