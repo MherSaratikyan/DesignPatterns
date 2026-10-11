@@ -149,6 +149,8 @@
     <ClCompile Include="WithPatterns\EmailBuilder.cpp" />
     <ClCompile Include="WithPatterns\EmailService.cpp" />
     <ClCompile Include="WithPatterns\PatternDemo.cpp" />
+    <ClCompile Include="WithoutPatterns\Email.cpp" />
+    <ClCompile Include="WithoutPatterns\PlainDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common\MailSubsystems.h" />
@@ -156,6 +158,8 @@
     <ClInclude Include="WithPatterns\EmailBuilder.h" />
     <ClInclude Include="WithPatterns\EmailService.h" />
     <ClInclude Include="WithPatterns\PatternDemo.h" />
+    <ClInclude Include="WithoutPatterns\Email.h" />
+    <ClInclude Include="WithoutPatterns\PlainDemo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
