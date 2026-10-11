@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DesignPatterns.cpp" />
+    <ClCompile Include="Common\MailSubsystems.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\MailSubsystems.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
